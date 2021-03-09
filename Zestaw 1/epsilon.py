@@ -1,3 +1,5 @@
+import numpy
+import math
 a = 1.0
 
 def bisect(b):
@@ -11,3 +13,5 @@ def bisect(b):
             return sup-n
 
 print(bisect(2))
+
+print(numpy.nextafter(1.0, math.inf) - 1.0)

@@ -1,4 +1,4 @@
-n = int(input("n = "))
+c
 
 def factorial(n):
     if n == 1:
